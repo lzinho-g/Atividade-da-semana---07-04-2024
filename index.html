@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios JavaScript Interativos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Exercícios Interativos de JavaScript</h1>
+    
+    <!-- (1) Mensagem de Olá Mundo -->
+    <div class="exercicio">
+        <div id="saida-ola"></div>
+    </div>
+    
+    <!-- (2) Soma de 2 inteiros -->
+    <div class="exercicio">
+        <h2>2. Calculadora Simples</h2>
+        <p>Some dois números:</p>
+        <input type="number" id="numero1" value="5" class="numero-input">
+        <span> + </span>
+        <input type="number" id="numero2" value="3" class="numero-input">
+        <button onclick="calcularSoma()">Calcular Soma</button>
+        <div class="resultado">Resultado: <span id="resultado-soma"></span></div>
+    </div>
+    
+    <!-- (3) Alterar por id -->
+    <div class="exercicio">
+        <h2>3. Modificar Propriedade por ID</h2>
+        <div id="elemento-por-id" class="elemento-interativo">Este elemento será alterado por ID</div>
+        <button onclick="alterarPorId()">Modificar Elemento</button>
+    </div>
+    
+    <!-- (4) Alterar por name -->
+    <div class="exercicio">
+        <h2>4. Modificar Propriedade por NAME</h2>
+        <div name="elemento-por-name" class="elemento-interativo">Este elemento será alterado por NAME</div>
+        <button onclick="alterarPorName()">Modificar por NAME</button>
+    </div>
+    
+    <!-- (5) Alterar por class -->
+    <div class="exercicio">
+        <h2>5. Modificar Propriedade por CLASSE</h2>
+        <div class="mudar-cor">Elemento 1</div>
+        <div class="mudar-cor">Elemento 2</div>
+        <button onclick="alterarPorClass()">Modificar por CLASS</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
